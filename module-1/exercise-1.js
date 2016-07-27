@@ -1,24 +1,40 @@
-// This is a comment
+// + example #1
+console.log(1 + 1);
+// + example #2
+var a = 3;
+var b = 5;
+console.log(a + b);
+// + example #3
+console.log(Math.sqrt(4) + 2);
 
-// Data types:
+// - example #1
+console.log(1 - 3);
+// - example #2
+console.log(Math.PI - 3);
+// - exapmple #3
+console.log(Math.pow(2,2) - 1);
 
-// Primitive Data Types:
-// Number eg: 1, 2
-// String eg: "Hello", 'Hello'
-// Boolean eg: true, false
+// * example #1
+console.log(1 * 2);
+// * example #2
+console.log(Math.ceil(2) + 1);
+// * example #3
+var x = 1;
+var t = x + 1;
+console.log(t);
 
-// Complex Data Types:
-// Array eg: [1, "hello", false]
-// Object eg: { key : value }
+// / example #1
+console.log(10 / 5);
+// / example #2
+console.log(Math.round(5.78));
+// / example #3
+console.log(Math.random());
 
-// Executable Data Type:
-// Function
-/*
-function hello(name) {
-  console.log("Hello From Codetrotters");
-  console.log("Nice to meet you ", name);
-}
-*/
-
-// Print to current output eg: stdin (terminal), webconsole
-console.log("Hello, world");
+// % example #1
+console.log(10 % 5);
+// % example #2
+console.log(40 & 10);
+// % example #3
+var x = 10;
+var y = 2;
+console.log(x % y);

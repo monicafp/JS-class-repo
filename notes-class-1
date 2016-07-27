@@ -1,0 +1,28 @@
+// This is a comment
+
+// Data types:
+
+// Primitive Data Types:
+// Number eg: 1, 2
+// String eg: "Hello", 'Hello'
+// Boolean eg: true, false
+
+// Complex Data Types:
+// Array eg: [1, "hello", false]
+// Object eg: { key : value }
+
+// Executable Data Type:
+// Function
+/*
+function hello(name) {
+  console.log("Hello From Codetrotters");
+  console.log("Nice to meet you ", name);
+}
+*/
+
+// Outdated Data Types
+//  null quiero asignar la variable sin asignarle nada; ese valor es raramente utilizado pq no quieres escribir código que no haga nada (quieren quitarlo). no tiene valor, pero está asignado. Antes se declaraba la variable var = null y luego null = contenido.
+// undefined no hay nada definido, no tiene asignatura, no tiene ni valor nulo.
+
+// Print to current output eg: stdin (terminal), webconsole
+console.log("Hello, world");
