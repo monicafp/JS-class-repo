@@ -19,5 +19,5 @@ function switcharooY(x, y) {
   }
 }
 
-switcharooX();
-switcharooY();
+switcharooX(x,y);
+switcharooY(x,y);
