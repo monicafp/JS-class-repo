@@ -1,6 +1,7 @@
 var prompt = require('prompt-sync')();
 
 var size = Number(prompt("Choose a size."));
+
 var myArray = [];
 
 function genArray(size) {
