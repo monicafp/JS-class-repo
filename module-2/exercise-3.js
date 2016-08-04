@@ -2,18 +2,22 @@
 
 var prompt = require('prompt-sync')();
 
-var x = Number(prompt("Enter any word."));
+var x = prompt("Enter any word.");
 
 // Put the given word into an array
-var x = [" "];
+// x = [" "];
 // Slice the array to separate each character
-x.slice(0);
+// x.slice(0);
 
 // reverse array
-x.reverse();
+// x.reverse();
 
 // push into new array
-var newArray = [ ];
+// var newArray = [ ];
 
 // concat new array
-newArray.concat();
+// newArray.concat();
+
+// Johnny's suggestion
+x = x.split("").reverse().join("");
+console.log(x);
