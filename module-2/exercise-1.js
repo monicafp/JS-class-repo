@@ -13,3 +13,7 @@ function genArray(size) {
 }
 
 genArray(size);
+
+// Johnny's suggestion:
+myArray.length = size;
+console.log(myArray);
