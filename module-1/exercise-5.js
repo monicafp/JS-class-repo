@@ -21,3 +21,34 @@ function switcharooY(x, y) {
 
 switcharooX(x,y);
 switcharooY(x,y);
+
+
+// Johnny's suggestion:
+function switcharoo(variable, x, y) {
+  var result = "";
+  switch (variable) {
+    case "x":
+      if (x % y === 0) {
+        console.log("yes");
+        result = result + "yes";
+      } else {
+        console.log("no");
+        result = result + "no";
+      }
+      break;
+    case "y":
+      if (y % x === 0) {
+        console.log("yes");
+        result = result + "yes";
+      } else {
+        console.log("no");
+        result = result + "no";
+      }
+      break;
+    default:
+  }
+  return result;
+}
+
+switcharoo("x", x, y);
+switcharoo("y", x, y);
