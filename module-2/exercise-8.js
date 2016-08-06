@@ -8,7 +8,7 @@ function isPrime(x) {
             return false;
         }
     }
-    return x > 1;
+    return true;
 }
 
-isPrime(x);
+console.log(isPrime(x));
